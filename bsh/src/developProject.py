@@ -3,13 +3,17 @@ import random
 import time
 import os
 
+#   Konstansok listája
+WIDTH = 640
+HEIGHT = 480
+TITLE = "GROWL"
+VERSION = "01.001.0001"
 
 #   Ablak init
-WIDTH = 1366
-HEIGHT = 768
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
+
 #   Ablak neve
-pygame.display.set_caption("Ablak neve")
+pygame.display.set_caption(TITLE + " v." + VERSION)
 
 DIVIDER = 40
 MULTIPLER = 0.5
